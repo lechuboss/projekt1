@@ -11,27 +11,27 @@ CONFIG += c++11
 SOURCES += \
     azja.cpp \
     gruzin.cpp \
+    italy.cpp \
     main.cpp \
     mainwindow.cpp \
     polska.cpp \
-    usa.cpp \
-    wloska.cpp
+    usa.cpp
 
 HEADERS += \
     azja.h \
     gruzin.h \
+    italy.h \
     mainwindow.h \
     polska.h \
-    usa.h \
-    wloska.h
+    usa.h
 
 FORMS += \
     azja.ui \
     gruzin.ui \
+    italy.ui \
     mainwindow.ui \
     polska.ui \
-    usa.ui \
-    wloska.ui
+    usa.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

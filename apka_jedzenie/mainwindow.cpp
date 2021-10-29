@@ -1,10 +1,10 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "polska.h"
-#include "wloska.h"
 #include "azja.h"
 #include "usa.h"
 #include "gruzin.h"
+#include "italy.h"
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -21,12 +21,7 @@ void MainWindow::on_pushButton_clicked()
   polska.setModal(true);
   polska.exec();
 }
-void MainWindow::on_pushButton_2_clicked()
-{
-    wloska wloska;
-    wloska.setModal(true);
-    wloska.exec();
-}
+
 void MainWindow::on_pushButton_3_clicked()
 {
     azja azja;
@@ -44,5 +39,17 @@ void MainWindow::on_pushButton_5_clicked()
     gruzin gruzin;
     gruzin.setModal(true);
     gruzin.exec();
+}
+void MainWindow::on_pushButton_2_clicked()
+{
+
+}
+
+
+void MainWindow::on_pushButton_6_clicked()
+{
+    italy italy;
+    italy.setModal(true);
+    italy.exec();
 }
 

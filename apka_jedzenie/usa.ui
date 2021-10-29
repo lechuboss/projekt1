@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>usa</class>
  <widget class="QDialog" name="usa">
@@ -5,13 +6,143 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>796</width>
+    <height>594</height>
    </rect>
   </property>
-  <property name="windowTitle">
-   <string>Dialog</string>
+  <property name="minimumSize">
+   <size>
+    <width>796</width>
+    <height>594</height>
+   </size>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>796</width>
+    <height>594</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Amerykańska</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/img/img/1.png);</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>741</width>
+     <height>230</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="verticalSpacing">
+     <number>6</number>
+    </property>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Whiskey in the Jar, Rynek 23-24, 50-101 Wrocław</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Soczewka, Rynek 20/21, 50-101 Wrocław</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Heavy Meat, Michała Płońskiego 31, 54-002 Wrocław</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>American Dream, Drukarska 32, 53-312 Wrocław</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>66 American Burger, Rychtalska 16, 50-304 Wrocław</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="styleSheet">
+       <string notr="true">font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
  </widget>
  <resources/>
  <connections/>

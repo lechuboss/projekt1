@@ -15,6 +15,9 @@ public:
     explicit wloska(QWidget *parent = nullptr);
     ~wloska();
 
+private slots:
+    void on_pushButton_6_clicked();
+
 private:
     Ui::wloska *ui;
 };

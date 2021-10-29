@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Kulinarna mapa Wrocławia</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-image: url(:/img/img/1.png);</string>
@@ -20,36 +20,51 @@
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>90</x>
       <y>210</y>
-      <width>211</width>
-      <height>281</height>
+      <width>257</width>
+      <height>285</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QPushButton" name="pushButton">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 87 18pt &quot;Georgia Pro Cond Black&quot;;</string>
+       </property>
        <property name="text">
         <string>POLSKA</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="text">
-        <string>WŁOSKA</string>
-       </property>
-      </widget>
-     </item>
-     <item>
       <widget class="QPushButton" name="pushButton_3">
+       <property name="styleSheet">
+        <string notr="true">font: 87 18pt &quot;Georgia Pro Cond Black&quot;;</string>
+       </property>
        <property name="text">
         <string>AZJATYCKA</string>
        </property>
       </widget>
      </item>
      <item>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="styleSheet">
+        <string notr="true">font: 87 18pt &quot;Georgia Pro Cond Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>WŁOSKA</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QPushButton" name="pushButton_4">
+       <property name="styleSheet">
+        <string notr="true">font: 87 18pt &quot;Georgia Pro Cond Black&quot;;</string>
+       </property>
        <property name="text">
         <string>AMERYKAŃSKA</string>
        </property>
@@ -57,8 +72,18 @@
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_5">
+       <property name="styleSheet">
+        <string notr="true">font: 87 18pt &quot;Georgia Pro Cond Black&quot;;</string>
+       </property>
        <property name="text">
         <string>GRUZIŃSKA</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string/>
        </property>
       </widget>
      </item>
@@ -70,7 +95,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>80</x>
       <y>50</y>
       <width>281</width>
       <height>121</height>

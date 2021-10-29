@@ -1,19 +1,19 @@
-#ifndef AZJA_H
-#define AZJA_H
+#ifndef ITALY_H
+#define ITALY_H
 
 #include <QDialog>
 
 namespace Ui {
-class azja;
+class italy;
 }
 
-class azja : public QDialog
+class italy : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit azja(QWidget *parent = nullptr);
-    ~azja();
+    explicit italy(QWidget *parent = nullptr);
+    ~italy();
 
 private slots:
     void on_pushButton_6_clicked();
@@ -27,7 +27,7 @@ private slots:
     void on_pushButton_10_clicked();
 
 private:
-    Ui::azja *ui;
+    Ui::italy *ui;
 };
 
-#endif // AZJA_H
+#endif // ITALY_H
