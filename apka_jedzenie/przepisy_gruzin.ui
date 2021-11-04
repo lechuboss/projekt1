@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>przepisy_gruzin</class>
+ <widget class="QDialog" name="przepisy_gruzin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>583</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>583</width>
+    <height>588</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>583</width>
+    <height>588</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Przepisy Gruzin</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/img/img/1.png);</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>191</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/img/img/NAZWA.png);</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;Składniki:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;Ciasto&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot;&gt;1 kg mąki (podzielonej na ok. 900 g + 100 g)&lt;/span&gt;&lt;/p&gt;
+&lt;ul type=&quot;circle&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;1 łyżeczka soli&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;ok. 2 szklanki ciepłej wody&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:30px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;2 łyżki oleju (dzięki niemu ciasto będzie bardziej elastyczne)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:30px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; font-weight:600; color:#ffffff;&quot;&gt;Farsz:&lt;/span&gt;&lt;/p&gt;
+&lt;ul type=&quot;circle&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:30px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;600 g mielonej wołowiny*&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;500 g mielonej wieprzowiny*&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;2 spore cebule (u mnie: 4 szalotki) + odrobina oleju&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;ok. 500 ml rosołu lub warzywnego bulionu (można zastąpić wodą, ale z rosołem pierogi są smaczniejsze)&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;2 łyżeczki ziaren kolendry (roztartych w moździerzu)&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;2 łyżeczki soli&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;1 łyżeczka czarnego pieprzu (świeżo zmielonego)&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Open Sans','sans-serif'; font-size:8pt; color:#ffffff;&quot; style=&quot; margin-top:0px; margin-bottom:30px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;3 czubate łyżki posiekanej natki pietruszki&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>241</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/img/img/baton.png);</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Przygotowanie (Chinkali):&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:8pt; font-weight:296; color:#000000; background-color:#ffffff;&quot;&gt;Mięso łączymy z drobno posiekaną natką, startą na tarce cebulą oraz bulionem. Całość intensywnie mieszamy przez około 3-4 minuty, do czasu aż mięso wchłonie cały bulion. Na koniec dodajemy sól i pieprz (jeśli bulion był słony, to należy ograniczyć ilość soli).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>340</y>
+     <width>181</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/img/img/NAZWA.png);</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;Składniki&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;: &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:4px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:8pt; color:#ffffff;&quot;&gt;500 g mąki pszennej.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:4px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:8pt; color:#ffffff;&quot;&gt;12 g drożdży świeżych.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:4px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:8pt; color:#ffffff;&quot;&gt;1 łyżeczka cukru.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:4px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:8pt; color:#ffffff;&quot;&gt;1 płaska łyżeczka soli.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:4px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','sans-serif'; font-size:8pt; color:#ffffff;&quot;&gt;2 łyżki masła lub ewentualnie oleju/oliwy.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_4">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>10</y>
+     <width>256</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/img/img/baton.png);</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Przygotowanie (Chaczapuri):&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Montserrat','sans-serif'; font-size:8pt; color:#606060; background-color:#ffffff;&quot;&gt;Przygotować zaczyn, w tym celu wymieszać drożdże z 1 łyżeczką cukru, 200 ml ciepłej (ale niegorącej) wody i łyżką mąki. Odstawić na około 15 minut aż zaczyn zacznie pracować.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Montserrat','sans-serif'; font-size:8pt; color:#606060; background-color:#ffffff;&quot;&gt;Po tym czasie dodać resztę składników i wyrobić robotem lub ręcznie gładkie i elastyczne ciasto. Nie dosypywać zbyt dużo mąki, gdyż ciasto będzie twarde. Ciasto będzie nieco rzadsze niż takie na pizzę. Odstawić pod przykryciem w ciepłe miejsce na około 1 godzinę do wyrośnięcia.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Montserrat','sans-serif'; font-size:8pt; color:#606060; background-color:#ffffff;&quot;&gt;Po tym czasie ciasto podzielić na porcje (ilość zależy od tego jak duże chcecie robić chaczapuri). Porcję ciasta wałkować lub rozciągnąć ręcznie na placek, na środku wyłożyć znaczną porcję sera. Boki ciasta zaklejać do środka, tak aby cały ser został zamknięty w cieście, następnie wałkować na płaski placek o grubości do 5 mm.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Montserrat','sans-serif'; font-size:8pt; color:#606060; background-color:#ffffff;&quot;&gt;Piec na suchej patelni, na średnim ogniu z obu stron aż placek będzie wyrośnięty i nabierze złotego koloru. Po upieczeniu przełożyć na talerz i posmarować gorące chaczapuri masłem.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Montserrat','sans-serif'; font-size:8pt; color:#606060; background-color:#ffffff;&quot;&gt;Chaczapuri można też piec w rozgrzanym piekarniku ok 180 stopni przez 10-15 minut, ale dużo łatwiejsze jest to na patelni.&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Montserrat','sans-serif'; font-size:8pt; color:#606060;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:28px;&quot;&gt;&lt;span style=&quot; font-size:13px;&quot;&gt;Podawać jako samodzielne danie lub z sałatką/sosem czosnkowym/ koperkowym lub jako dodatek do mięs/sałatek/ innych dań.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

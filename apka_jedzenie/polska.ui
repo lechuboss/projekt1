@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>polska</class>
+ <widget class="QDialog" name="polska">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>796</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>796</width>
+    <height>594</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>796</width>
+    <height>594</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Polska</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/img/img/1.png);</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>681</width>
+     <height>235</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Konspira  Plac Solny 11, 50-061 Wrocław</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Jadalnia Piławska 18, 50-536 Wrocław</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Inna Bajka, Odrzańska 18/19, 50-113 Wrocław</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Karczma Lwowska Rynek 4, 50-529 Wrocław</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Kurna Chata Odrzańska 17, 50-113 Wrocław</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>STRONA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/img/img/baton.png);
+
+font: 87 12pt &quot;Georgia Pro Cond Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>PRZEPISY</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
